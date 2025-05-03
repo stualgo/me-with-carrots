@@ -16,6 +16,8 @@ header {
 .link-header:hover {
     border: 10px dotted #5B913B;
     background-color: #77B254;
+    transition: 0.5s all ease;
+
 } 
 nav a {
     text-decoration: none;
@@ -52,4 +54,10 @@ main p:hover {
 main h1:hover {
     font-family: genshin;
     font-size: 45px;
+}
+main {
+    margin-bottom: 20px;
+}
+h1 {
+    transition: 0.5s all ease;
 }
