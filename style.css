@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+.link-header {
+    background-color: #DD7631 ;
+    border:5px solid #BB3B0E ;
+    border-radius:37% ;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+header {
+    margin: 30px;
+}
+.link-header:hover {
+    border: 10px dotted #5B913B;
+    background-color: #77B254;
+} 
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+main nav {
+    background-color: #DD7631;
+    padding: 10px 0px 10px 0px;
+    border: 5px dotted #BB3B0E;
+}
+main nav:hover {
+    border:5px solid #5B913B ;
+    background-color: #77B254;
+}
+.link-nav:hover {
+    color: #F0CFA1; 
+ background-image: linear-gradient(45deg, #F0CFA1 , #FFC078 , #C47908 , #A8540F ); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+    font-size: 20px;
+    font-family: Arial Narrow Bold;
+}
+main p:hover {
+    font-family:Impact;
+    font-size: 20px;
+}
+main h1:hover {
+    font-family: genshin;
+    font-size: 45px;
+}
