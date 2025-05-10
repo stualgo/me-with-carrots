@@ -61,3 +61,12 @@ main {
 h1 {
     transition: 0.5s all ease;
 }
+p a {
+    color: black;
+    
+}
+li:hover {
+    font-size: 20px;
+    font-family: Impact;
+
+}
